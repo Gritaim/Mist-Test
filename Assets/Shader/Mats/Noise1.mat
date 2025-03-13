@@ -20,9 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_Noise 1
-  m_Shader: {fileID: -6465566751694194690, guid: 68342abb978eaea4aa2412d07e8b9479,
-    type: 3}
+  m_Name: Noise1
+  m_Shader: {fileID: -6465566751694194690, guid: 68342abb978eaea4aa2412d07e8b9479, type: 3}
   m_ValidKeywords:
   - _ALPHATEST_ON
   - _SURFACE_TYPE_TRANSPARENT
@@ -44,7 +43,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_d048dc4930024a5db84231583dd52365_Texture_1:
-        m_Texture: {fileID: 2800000, guid: 670b03fd3989b6b448aae8d86405de62, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -67,12 +66,12 @@ Material:
     - _CastShadows: 0
     - _Cull: 2
     - _DstBlend: 10
-    - _Noise_Alpha: 1.38
+    - _Noise_Alpha: 1.53
     - _Noise_Distortion: 0
     - _Noise_Scale: 50
-    - _Noise_Scale_Procedural_Only: 50
-    - _Noise_Softness: 1.17
-    - _Noise_Strength: 0.79
+    - _Noise_Scale_Procedural_Only: 53.1
+    - _Noise_Softness: 0.79
+    - _Noise_Strength: 1.69
     - _Procedural_Noise: 1
     - _QueueControl: 0
     - _QueueOffset: 0
@@ -84,7 +83,7 @@ Material:
     - _ZWriteControl: 0
     - _noise_Scale: 10
     m_Colors:
-    - _Noise_Color: {r: 0.4339623, g: 0.4339623, b: 0.4339623, a: 0}
-    - _Noise_Speed: {r: 0.5, g: 0, b: 0, a: 0}
-    - _Noise_Tiling: {r: 8, g: 1, b: 0, a: 0}
+    - _Noise_Color: {r: 1, g: 1, b: 1, a: 0}
+    - _Noise_Speed: {r: 0.1, g: 0, b: 0, a: 0}
+    - _Noise_Tiling: {r: 2.55, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
